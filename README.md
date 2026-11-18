@@ -1,6 +1,3 @@
-코드로 연결되는 상대 경로 링크와 Mermaid 다이어그램까지 포함되어 있어 완성도가 매우 높습니다. 기존 마크다운의 핵심 요소(파일 링크, Mermaid 차트, 주석)를 모두 유지하면서, 어색한 개조식 문체(`~임`, `~함`)와 AI 작업 보고 문구를 덜어내고 가독성을 높인 최종 편집본입니다.
-
-
 # 🍕 Good Pizza, Great Rhythm (GPGR)
 
 ![Status: Prototype](https://img.shields.io/badge/Status-Prototype-orange)
