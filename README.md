@@ -1,6 +1,6 @@
 코드로 연결되는 상대 경로 링크와 Mermaid 다이어그램까지 포함되어 있어 완성도가 매우 높습니다. 기존 마크다운의 핵심 요소(파일 링크, Mermaid 차트, 주석)를 모두 유지하면서, 어색한 개조식 문체(`~임`, `~함`)와 AI 작업 보고 문구를 덜어내고 가독성을 높인 최종 편집본입니다.
 
-```markdown
+
 # 🍕 Good Pizza, Great Rhythm (GPGR)
 
 ![Status: Prototype](https://img.shields.io/badge/Status-Prototype-orange)
@@ -28,7 +28,7 @@
    ```bash
    git clone [https://github.com/goldsw/Good_Pizza_Great_Rhythm_main.git](https://github.com/goldsw/Good_Pizza_Great_Rhythm_main.git)
 
-```
+
 
 3. Unity Hub에서 `Assets`, `Packages`, `ProjectSettings`가 포함된 프로젝트 루트를 추가해 실행하고, 패키지 복원과 에셋 임포트가 완료될 때까지 기다립니다.
 4. `Assets/GPGR/Scenes/Trailer.unity`를 열고 **Play** 버튼을 눌러 실행합니다.
@@ -139,11 +139,3 @@ flowchart LR
 
 현재 저장소에 별도의 `LICENSE` 파일이 없어 라이선스 미지정 상태입니다. 코드·아트·음원 사용 조건은 프로젝트 소유자에게 문의해 주세요.
 
-```
-
-**주요 편집 내역**
-* **문체 다듬기:** `~임`, `~함` 형태의 메모 투를 정돈된 안내체와 명사형 종결로 수정해 공식 문서의 톤을 맞췄습니다.
-* **불필요한 AI 메타 문구 삭제:** 상단의 `Build: Not verified` 배지와 하단의 *"이 초안 작성 과정에서 Unity 실행·빌드·테스트는 수행하지 않았으며..."* 문구는 AI가 코드만 읽고 답변할 때 남기는 면책 문구이므로 제거하고, 그 자리에 `URP 17.6.0` 기술 배지를 추가했습니다.
-* **서식 정리:** 터미널 클론 명령어를 코드 블록으로 분리하고, 조작 키 목록을 마크다운 표(Table)로 변환해 가독성을 높였습니다.
-
-```
